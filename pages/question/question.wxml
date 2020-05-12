@@ -1,0 +1,40 @@
+<!-- 常见问题 -->
+<import src="../../templates/nav.wxml" />
+<view class='problems'>
+  <!--导航  -->
+  <template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+  <template is="selectNav" data="{{currentPage}}" wx:else></template>
+  <view class='items'>
+    <image src='/images/img/title.png' class='titleImg'></image>
+    <view class='left'>
+      <view class='title'>常见问题</view>
+      <view class='engTitle'>PROBLEM</view>
+    </view>
+  </view>
+  <view class='proItems'>
+    <view class='proItem' catchtap="goApply">
+      <view class='pro'>广州企业怎么申请小程序？</view>
+      <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+    </view>
+    <view class='proItem' catchtap="goPrice">
+      <view class='pro'>广州小程序开发价格是不是越低越好？</view>
+      <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+    </view>
+    <view class='proItem' catchtap="goReceive">
+      <view class='pro'>小程序开发过程中增加新功能怎么收费？</view>
+      <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+    </view>
+    <view class='proItem' catchtap="goWork">
+      <view class='pro'>一个成功的小程序需要准备哪些前期工作？</view>
+      <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+    </view>
+    <view class='proItem' catchtap="goMoney">
+      <view class='pro'>广州小程序开发要多少钱？开发报价规则如何？</view>
+      <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+    </view>
+    <view class='proItem' catchtap="goDetail">
+      <view class='pro'>广州企业如何选择靠谱专业的微信小程序开发团队？</view>
+      <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+    </view>
+  </view>
+</view>

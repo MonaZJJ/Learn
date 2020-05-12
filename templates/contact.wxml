@@ -1,0 +1,29 @@
+<template name="contact">
+  <view class='contact'>
+    <view class='items'>
+      <image src='/images/img/title.png' class='titleImg'></image>
+      <view class='left'>
+        <view class='title'>咨询热线</view>
+        <view class='engTitle'>HOTLINE</view>
+      </view>
+    </view>
+    <view class='serviceImg'>
+      <button open-type='contact' class='serviveButton'>
+        <image src='../../images/img/service.png'></image>
+      </button>
+    </view>
+
+    <view class="contact-telphone " bindtap='toCallTelPhone'>
+      <image src='/images/img/phone.png' style='width:36rpx;height:32rpx;'></image>
+      <text class='contact-text'>020-29075170</text>
+    </view>
+    <view class="contact-telphone " bindtap='toCallMobilePhone'>
+      <image src='/images/img/mobilephone.png' style='width:36rpx;height:36rpx;'></image>
+      <text class='contact-text'>18011971195</text>
+    </view>
+    <view class='address'>
+      <image src='/images/img/address.png' style='width:34rpx;height:36rpx;'></image>
+      <text class='contact-text'>广东省广州市天河区天源路804号萌芽1968创意园L13栋1单元1楼 </text>
+    </view>
+  </view>
+</template>

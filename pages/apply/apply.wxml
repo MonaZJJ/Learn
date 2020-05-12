@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="title">广州企业怎么申请小程序？</view>
+  <view class="time">2019.05.23</view>
+  <view class="tips"> 摘要： 小程序在微信平台上是与企业号等产品并驾齐驱的，因此开通注册的平台与方式也跟公会号等产品是相差不多，不过还是有点一丢丢差别，下面小编给大家简单讲讲。</view>
+  <view class="content">
+    <view style="margin-bottom:20rpx;"> 小程序在微信平台上是与企业号等产品并驾齐驱的，因此开通注册的平台与方式也跟公会号等产品是相差不多，不过还是有点一丢丢差别，下面就让小编用假的图文方式来说明开通方式，但就是不会说明两者的不同，看客们要想知道全程靠猜吧。</view>
+    <view> 第一步：网页搜索“微信公众平台”官网点击进入，而后点击右上角“立即注册”。</view>
+    <view class="applyImg">
+      <image src="https://shopplatform.gzhotcen.com/upload/OfficialWebSite/apply01.png" style="width:600rpx;height:350rpx;"></image>
+    </view>
+    <view> 第二步：进入注册页面后，选择小程序窗口点击进去。</view>
+    <view class="applyImg">
+      <image src="https://shopplatform.gzhotcen.com/upload/OfficialWebSite/apply02.png" style="width:600rpx;height:350rpx;"></image>
+    </view>
+    <view> 第三步：根据小程序注册窗口中的提示步骤填写注册的邮箱、登录密码、验证码等，点击注册后登录所注册的邮箱，点击所接收到的链接进行验证。</view>
+    <view class="applyImg">
+      <image src="https://shopplatform.gzhotcen.com/upload/OfficialWebSite/apply03.png" style="width:600rpx;height:350rpx;"></image>
+    </view>
+    <view>第四步：在上述注册页面中最后一项信息登记上需要注意的是，信息登记分为“主体信息登记”以及“管理员信息登记”，而其中的主体信息提交后便不可修改，需要谨慎考虑后进行操作。</view>
+    <view>第五步：在信息登记项填写后点击提交确定，而后便可选择验证方式，直接选择“对公账号打款验证”，可以获取打款信息，向这个账号汇入几分钱等少量金额后，便可以等待微信官方审核。</view>
+    <view>第六步：微信官方审核结果出来后，登录账号便可使用小程序后台了。</view>
+  </view>
+</view>

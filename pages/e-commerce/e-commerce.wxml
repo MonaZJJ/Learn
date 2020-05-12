@@ -1,0 +1,100 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>电商小程序</view>
+    <view class="en">E-commerce applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/se.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>具有线上商城的所有基本功能，其玩法众多，开发模式可选项丰富，可以适配更多企业商家的需求。</view>
+  </view>
+</view>
+
+<view class='character'>
+  <text>特点</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>模式多选，适配角色</text>
+    </view>
+    <view class='content'>根据商家在市场扮演的觉得去选择小程序商城模式，零售、批发、分销都有对应发展模式。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>玩法多样，符合需求</text>
+    </view>
+    <view class='content'>小程序商城营销玩法多样，支持多渠道对接打通，可自由选择营销工具，带动双场景发展。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>独立发展，营销自主</text>
+    </view>
+    <view class='content'>小程序商城是独立的商城平台，平台建设可自定义，营销手段可自己选择，用户流量可自享。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>便捷操作，高效运营</text>
+    </view>
+    <view class='content'>小程序商城后台为便捷化、可视化的操作管理模式，统一把控小程序商城的总体运营状态。</view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='many'>
+    <view class='pro first'>
+      <image src='/images/img/item1.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>商品管理</view>
+      <view class='pro-desc'>管理商城商品详情、库存与上下架等</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item2.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>店铺管理</view>
+      <view class='pro-desc'>支持店铺入驻，实现多商户同发展玩法</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item3.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>分销管理</view>
+      <view class='pro-desc'>管理分销系统内容，自主设定分销机制</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item4.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>营销功能</view>
+      <view class='pro-desc'>可发起各种营销活动，后台直接管理</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item5.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>在线支付</view>
+      <view class='pro-desc'>开通微信支付功能，支持在线便捷支付</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item6.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>订单管理</view>
+      <view class='pro-desc'>统一管理商城订单，分类展示订单状态</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item7.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>会员管理</view>
+      <view class='pro-desc'>分等级管理会员，助商城实现精准营销</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item8.png' style='width:64rpx;height:64rpx;'></image>
+      <view class='pro-title'>个人中心</view>
+      <view class='pro-desc'>展示用户基本信息，支持修改收货地址</view>
+    </view>
+    <view class='pro'>
+      <image src='/images/img/item9.png' style='width:83rpx;height:64rpx;'></image>
+      <view class='pro-title'>物流追踪</view>
+      <view class='pro-desc'>追踪订单物流，在客户端展示物流状态</view>
+    </view>
+  </view>
+</view>
+<template is="contact"></template>

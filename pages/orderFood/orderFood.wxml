@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="title">广州酒家校园订餐小程序</view>
+  <view class="tips">摘要：随着餐饮行业市场情况瞬息万变，广州酒家为了向校园进军，开拓校园市场，与广州互诚科技达成协议，为了向校园师生提供订餐服务，互诚科技开发出系统项目订餐小程序。小程序包含了订餐、月卡购买、智能数据分析管理、用户管理等便捷功能，高效服务用户。小程序功能如下：</view>
+  <view class="applyImg">
+    <image src="https://shopplatform.gzhotcen.com/upload/OfficialWebSite/apply05.jpg" style="width:553rpx;height:400rpx;"></image>
+  </view>
+  <view class="content">
+    <view class="bigTitle">1、用户登录：会员手机登录，用户进入系统须与后台指定的手机号凭手机验证码登录。</view>
+    <view class="bigTitle">2、学生用户：学生可按月购买饭卡（可单月，可多月）饭卡支付金额=当月工作日天数*每餐饭的餐标。</view>
+    <view class="bigTitle">3、老师用户：老师不需要预先购买饭卡，只需要每个月统计一次某学校教师用餐数量即可；老师用户可以在次日的上午8点前“请假/撤销请假”。</view>
+    <view class="bigTitle">4、个人中心：我的账户 ，显示用户在系统上的个人资料：所在学校，学生或老师，年级，班级，手机号码等；我的月卡 ：查看在系统上所有购买的月卡。</view>
+  </view>
+</view>

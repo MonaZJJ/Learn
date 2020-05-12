@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="title">康美时代新零售商城小程序</view>
+  <view class="tips">摘要：康美时代为进一步落实健康新零售计划，携手广州小程序开发公司互诚科技，为对接实体门店，打通线上线下场景，定制开发康美时代健康新零售商城小程序。通过对康美时代健康新零售小程序的开发，其中囊括了乐透秒杀、会员统一管理、产品推广、产品销售、真正的实现了健康新零售发展模式。核心功能如下：</view>
+  <view class="applyImg">
+    <image src="https://shopplatform.gzhotcen.com/upload/OfficialWebSite/apply10.jpg" style="width:553rpx;height:400rpx;"></image>
+  </view>
+  <view class="content">
+    <view class="bigTitle">1、登录：手机号码登录：输入手机号码、手机验证码登录。</view>
+    <view class="bigTitle">2、注册：手机号码注册：输入手机号码、验证码、邀请码(选填); 判断注册手机号码是否存在会员编号，如该手机号码下有未注销的会员编号，则无法完成注册，提示会员“请使用时代会员编号登录”。</view>
+    <view class="bigTitle">3、乐透秒杀：需登录后才能购买；优惠顾客/VIP顾客及以上级别，通过分享人的链接进入乐透秒杀购买产品，不享受产品折扣价，同时默认绑定首次分享人做为邀请人，邀请人享受5%-20%的返利，返利周结月发。</view>
+    <view class="bigTitle">4、产品分享：  链接分享；图片模式分享。</view>
+
+    <view class="bigTitle">5、自营区： 自营区产品为直销产品及辅销品，直销产品享有相应的会员折扣及积分返利，辅销品则没有: 优惠顾客/VIP顾客及以上级别，通过分享人的链接进入乐透秒杀购买产品，不享受产品折扣价，同时默认绑定首次分享人做为邀请人，邀请人享受5%-20%的返利，返利周结月发。</view>
+    <view class="bigTitle">6、Vip专区：399元VIP礼包（100元推荐奖100积分，礼包有多个产品选择），399礼包可进行产品分享；推荐人获得100元购物积分， 购买成功后获得我的邀请码权限及享受自营专区二次销售8.5折。</view>
+    <view class="bigTitle">7、积分中心：商品购买消费之后自动获得积分。</view>
+  </view>
+</view>

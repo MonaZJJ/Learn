@@ -1,0 +1,87 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg6.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>教育小程序</view>
+    <view class="en">Education applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/sedu.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>采用移动网络化的经营模式去经营教育服务企业，除了能更加符合现代人群的生活方式、学习方式之外，同时也降低了教育行业的经营成本与营销成本，给教育行业的服务商的利益带来一定的保障效果。</view>
+  </view>
+</view>
+<view class='character'>
+  <text>特点</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>实现两大场景资源共享</text>
+    </view>
+    <view class='content'>教育行业服务企业开发微信平台之后，能同时实现线上线下场景的营销与服务，打通两大场景、资源共享，扩大行业发展维度与客源来源范围。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>打破发展局限性</text>
+    </view>
+    <view class='content'>传统教育行业受时间地域限制明显，受单一营销手段的影响大，而开发微教育平台，企业商家得以打破发展的局限，随时随地为客户提供教育服务，提升行业竞争力。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>合理分配教育资源</text>
+    </view>
+    <view class='content'>以微信平台系统化开发，为教育机构服务商提供合理分配教育资源的管理系统，统一管理调配教师资源， 灵活安排学员学习时间，提升商家服务口碑与资源利用率。</view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>预约试听</text>
+    </view>
+    <view class='content'>按照流程报名填写资料，学员可以直接在线预约正式课程或者试听课程。教育机构通过统计在线预约数据，进行教学准备，提高服务效率。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>教学环境</text>
+    </view>
+    <view class='content'>用于展示线下的教学环境，以多媒体化的全面展示，将教学环境的情况悉数呈现在用户面前，有利于吸引潜在客户实现消费。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>线上教学</text>
+    </view>
+    <view class='content'>线上教学功能的开发满足了教育机构开拓线上服务渠道的需求，并且为学员提供更为便捷的获取服务的渠道，符合现代碎片化学习的要求。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>在线测试</text>
+    </view>
+    <view class='content'>在线测试功能打破线下纸质测试的场景局限性，无论是线下学员还是线上学员都能通过在线测试检验学习 成果，不受场景约束，方便高效。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>课程查询</text>
+    </view>
+    <view class='content'>教育机构可开发微信课程查询功能为学生提供移动化的线上课程查询入口，培训机构可通过开发课程查询功能，为学员展示所有培训课程，并支持搜索查询。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>市场调研</text>
+    </view>
+    <view class='content'>把控市场需求是经营教育培训机构的重点工作内容，微信开发解决方案可以为机构提供一个线上调研功能支持企业进行问卷调查、有奖问答等市场调研活动。</view>
+  </view>
+</view>
+<template is="contact"></template>

@@ -1,0 +1,31 @@
+<!--成功案例-->
+<import src="../../templates/nav.wxml" />
+<view class='container'>
+  <!--导航  -->
+  <template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+  <template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+  <!-- <scroll-view class='nav' scroll-x>
+    <block wx:for="{{navTab}}" wx:key data-idx='{{index}}'>
+      <view class='navItem' bindtap='currentTab'>
+        <image src='{{currentTab==index?item.clickUrl:item.imgUrl}}'></image>
+        <view>{{item.text}}</view>
+      </view>
+    </block>
+  </scroll-view> -->
+
+  <view class="Item" wx:for="{{caseList}}" wx:key>
+    <navigator open-type='navigate' url='{{item.aurl}}' hover-class='none'>
+      <view class='caseItem'>
+        <image src='{{item.caseImg}}' style='width:690rpx;height:460rpx;'></image>
+        <view class='caseDesc'>
+          <view class='caseTitle'>{{item.title}}</view>
+          <view class='caseIntro'>
+            <view class='caseIntroTitle'>项目介绍:</view>
+            <view class='caseIntroDetail'>{{item.detail}}</view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

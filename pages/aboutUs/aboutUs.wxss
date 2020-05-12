@@ -1,0 +1,99 @@
+.aboutUs {
+  margin: 19rpx 30rpx 90rpx 30rpx;
+}
+
+.about {
+  margin-top: 100rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  padding-left: 20rpx;
+  border-left: 10rpx solid #005efe;
+}
+
+.picture {
+  margin-top: 33rpx;
+}
+
+.intro {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  text-indent: 5%;
+  text-align: justify;
+  letter-spacing: 2rpx;
+}
+
+.teamIntro {
+  margin-top: 61rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  padding-left: 20rpx;
+  border-left: 10rpx solid #005efe;
+}
+
+swiper {
+  margin-top: 62rpx;
+}
+
+.le-img {
+  position: relative;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+  -webkit-transform: scale(0.8);
+  -webkit-transition: transform 0.3s ease;
+}
+
+.le-img.le-active {
+  transform: scale(0.9);
+  margin-top: -40rpx;
+}
+
+.ico {
+  display: block;
+  width: 100%;
+  margin-top: 60rpx;
+  /* border-radius: 20rpx; */
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.09);
+}
+
+.swp-title {
+  width: 100%;
+  background-color: #fff;
+  height: 220rpx;
+  border-radius: 0 0 10rpx 10rpx;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+
+.swp-ctitle {
+  font-size: 34rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20rpx;
+}
+
+.swp-etitle {
+  width: 420rpx;
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  margin-left: 15rpx;
+  margin-right: 23rpx;
+  text-align: justify;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.ideaItem{
+  margin-top: 41rpx;
+}
+.ideaTitle{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.ideaContent{
+  text-indent: 5%;
+  font-size: 26rpx;
+  margin-top: 25rpx;
+  letter-spacing: 2rpx;
+  text-align: justify;
+}

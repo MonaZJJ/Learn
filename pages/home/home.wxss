@@ -1,0 +1,286 @@
+/* pages/home/home.wxss */
+
+.titleImg {
+  width: 35rpx;
+  height: 70rpx;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30rpx;
+  margin-top: 80rpx;
+}
+
+.title {
+  margin-left: 20rpx;
+  font-weight: bold;
+  font-size: 38rpx;
+}
+
+.engTitle {
+  font-size: 32rpx;
+  font-weight: bold;
+  font-family: FZHTJW--GB1-0;
+  font-style: italic;
+  color: rgba(51, 51, 51, 1);
+  opacity: 0.2;
+  margin-left: 10rpx;
+}
+
+.itemImg {
+  width: 120rpx;
+  height: 100rpx;
+}
+
+.serviceItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60rpx;
+  margin-left: 30rpx;
+}
+
+.itemImgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 48rpx;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 31rpx;
+  font-size: 26rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.proItems {
+  margin: 40rpx 30rpx;
+}
+
+.proItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 98rpx;
+  line-height: 98rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.pro {
+  font-size: 26rpx;
+}
+
+button::after {
+  content: '';
+  border: 0;
+}
+
+/*主图*/
+
+.mainImg {
+  margin-top: 100rpx;
+  justify-content: center;
+  display: flex;
+}
+
+.mainImg image {
+  width: 100%;
+  height: 1107rpx;
+}
+
+/*解决方案start*/
+
+.soultion {
+  margin-top: 80rpx;
+}
+
+swiper {
+  margin-top: 62rpx;
+}
+
+.le-img {
+  position: relative;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+  -webkit-transform: scale(0.8);
+  -webkit-transition: transform 0.3s ease;
+}
+
+.le-img.le-active {
+  transform: scale(0.9);
+  margin-top: -40rpx;
+}
+
+.ico {
+  display: block;
+  width: 100%;
+  margin-top: 10rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.09);
+}
+
+.swp-title {
+  margin-top: -110rpx;
+  margin-left: 30rpx;
+  height: 80rpx;
+  border-left: 8rpx solid;
+  padding-left: 18rpx;
+}
+
+.swp-ctitle {
+  color: #333;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.swp-etitle {
+  color: #666;
+  font-weight: 300;
+  font-size: 28rpx;
+}
+
+/*解决方案end*/
+
+/*成功案例start*/
+
+.success {
+  margin-top: -440rpx;
+}
+
+swiper-item {
+  height: 70% !important;
+}
+
+.sico {
+  width: 100%;
+  display: block;
+  margin-top: 60rpx;
+}
+
+.img {
+  position: relative;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+  -webkit-transform: scale(0.8);
+  -webkit-transition: transform 0.3s ease;
+}
+
+.img.active {
+  transform: scale(1);
+  margin-top: -65rpx;
+}
+
+.cover {
+  margin-top: -235rpx;
+  margin-left: 36rpx;
+  margin-right: 45rpx;
+  letter-spacing: 1rpx;
+}
+
+.stitle {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.content {
+  text-align: justify;
+  line-height: 35rpx;
+  font-size: 22rpx;
+  color: #999;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.gl {
+  font-size: 20rpx;
+  color: #999;
+  font-family: "SimSun";
+  text-align: right;
+  margin-top: 14rpx;
+  margin-right: 6rpx;
+}
+
+.arrow {
+  float: right;
+  margin-right: 8rpx;
+}
+
+/*成功案例end*/
+
+/*合作客户start*/
+
+.partners {
+  margin-top: -430rpx;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.partners .title {
+  margin-left: 10rpx;
+}
+
+.partners-wrap {
+  height: 192rpx !important;
+}
+
+.partners-wrap .wx-swiper-dot {
+  width: 18rpx;
+  border-radius: 4rpx;
+  height: 8rpx;
+  background: #f0f0f0;
+  margin-right: -4rpx !important;
+}
+
+.partners-wrap .wx-swiper-dot-active {
+  width: 18rpx;
+  height: 8rpx;
+  background: #add0fd;
+  border-radius: 4rpx;
+}
+
+.swiper-item {
+  width: 240rpx !important;
+  height: 104rpx !important;
+}
+
+/* .partners-item {
+  width: 171rpx;
+  height: auto;
+  margin-left: 40rpx;
+  display: inline-block;
+} */
+
+/* .customer {
+  width: 171rpx;
+  height: 102rpx;
+  position: relative;
+} */
+
+.hsImg {
+  width: 171rpx;
+  height: 98rpx;
+}
+
+.problems {
+  margin-top: -10rpx;
+}
+
+/*合作伙伴end*/
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

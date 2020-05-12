@@ -1,0 +1,23 @@
+<!--解决方案-->
+<import src="../../templates/nav.wxml" />
+<view class='container'>
+  <!--导航  -->
+  <template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+  <template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+
+  <view class="Item" wx:for="{{caseList}}" wx:key>
+    <navigator open-type='navigate' url='{{item.aurl}}' hover-class='none'>
+      <view class='caseItem'>
+        <image src='{{item.caseImg}}' style='width:690rpx;height:700rpx;'></image>
+        <view class='caseDesc'>
+          <view class='caseTitle'>{{item.title}}</view>
+          <view class='caseIntro'>
+            <view class='caseIntroTitle'>简介:</view>
+            <view class='caseIntroDetail'>{{item.detail}}</view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

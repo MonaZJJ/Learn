@@ -1,0 +1,87 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg4.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>美妆小程序</view>
+    <view class="en">Beauty makeup applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/sbeauty.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>美容行业随着社会经济的发展、消费观念的转变、消费需求的不断增加给到行业更为广阔的发展空间。传统的美容实体店商家只能提供基本的美容服务，无法满足消费者的需求，需要商家扩展发展领域。</view>
+  </view>
+</view>
+<view class='character'>
+  <text>特点</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>打通服务场景，扩宽盈利空间</text>
+    </view>
+    <view class='content'>微信开发方案为美容行业的商家提供一个能打通线上线下服务场景的平台， 实现单向发展朝双向化发展的转变，扩宽企业客户来源范围与盈利空间。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>促进信息移动化、透明化</text>
+    </view>
+    <view class='content'>微信平台的开发，既能实现美容行业的信息传播移动化、高速化，也能让商家的信息展示更加透明化，能通过透明化信息的展示，提升商家的可信度。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>助力商家树立品牌形象，降低信任成本</text>
+    </view>
+    <view class='content'>美容行业的微信开发方案，为商家提供线上管理系统，通过专业化的信息展示与系统化的管理、高效率的服务，去塑造门店形象，助力于美容行业朝品牌化发展。</view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>服务展示</text>
+    </view>
+    <view class='content'>通过服务展示功能，将美容门店的所能提供的服务悉数展示在移动平台上，供消费者自助浏览了解， 省去人工讲解的资源耗费，节省人力资源的投入。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>店铺导航</text>
+    </view>
+    <view class='content'>店铺导航功能是为线下实体美容门店而设，可以用于在用户定位或者门店搜索的基础上进行准确推送店铺信息， 也可用户定位导航，方便用户快速找到门店。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>美容商城</text>
+    </view>
+    <view class='content'>美容商城可以用来售卖美容服务，也可以用来售卖美容产品。用于美容服务的销售上，可以实现在线下单、 上门服务，用于销售美容产品，则能通过在线支付、物流配送来实现交易。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>分销加盟</text>
+    </view>
+    <view class='content'>分销加盟功能可以被利用来发展美容产品的分销商，加大商品营销的覆盖率，也可以被利用来发展加盟店， 实现统一化的连锁门店管理，有利于把控品牌市场。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>会员管理</text>
+    </view>
+    <view class='content'>为满足美容行业商家管理会员的需求而开发的会员管理功能，支持分组管理、标签管理、分级管理， 商家在管理后台自定义设置管理内容，实现精准的客情维护。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>服务预定</text>
+    </view>
+    <view class='content'>用户通过服务预定功能，可以在线预约门店的服务内容、时间与人员，或者直接选择预约上门服务来获取 消费价值，只需填写相关预约信息后提交即可。</view>
+  </view>
+</view>
+<template is="contact"></template>

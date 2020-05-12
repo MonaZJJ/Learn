@@ -1,0 +1,190 @@
+.titleImg {
+  width: 35rpx;
+  height: 70rpx;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30rpx;
+  margin-top: 80rpx;
+}
+
+.title {
+  margin-left: 20rpx;
+  font-weight: bold;
+  font-size: 38rpx;
+}
+
+.engTitle {
+  font-size: 32rpx;
+  font-weight: bold;
+  font-family: FZHTJW--GB1-0;
+  font-style: italic;
+  color: rgba(51, 51, 51, 1);
+  opacity: 0.2;
+  margin-left: 10rpx;
+}
+
+.bg {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 231rpx;
+  left: 316rpx;
+  z-index: 999;
+  color: #fff;
+}
+
+.ch {
+  font-size: 40rpx;
+}
+
+.en {
+  font-size: 30rpx;
+}
+
+.special {
+  width: 750rpx;
+  height: 200rpx;
+  position: absolute;
+  top: 339rpx;
+  left: 0;
+  background-color: #fff;
+  border-radius: 87rpx 87rpx 0px 0px;
+}
+
+.special>image {
+  position: absolute;
+  left: 38rpx;
+  top: -114rpx;
+  box-shadow: 1rpx 1rpx 10rpx 1rpx #ddd;
+}
+
+.desc {
+  position: absolute;
+  top: 45rpx;
+  right: 35rpx;
+  height: 200rpx;
+  line-height: 40rpx;
+  width: 399rpx;
+  font-size: 22rpx;
+  color: #666;
+  overflow: hidden;
+  text-align: justify;
+  text-overflow: ellipsis;
+}
+
+.character {
+  margin-top: 200rpx;
+  margin-left: 32rpx;
+  overflow: hidden;
+}
+
+.character>text {
+  font-size: 40rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.common {
+  margin-top: 36rpx;
+  margin-right: 52rpx;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 22rpx;
+  margin-left: 38rpx;
+  text-align: justify;
+}
+
+.function {
+  margin-top: 62rpx;
+  margin-left: 32rpx;
+}
+
+.function>text {
+  font-size: 40rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.many {
+  width: 710rpx;
+  margin: 32rpx auto;
+}
+
+.pro {
+  width: 217rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #ddd;
+  text-align: center;
+  float: left;
+  margin-top: 25rpx;
+  margin-right: 16rpx;
+}
+
+.pro>image {
+  margin: 35rpx 0 0 0;
+}
+
+.pro-title {
+  color: #3f3f3f;
+  font-size: 24rpx;
+  margin-bottom: 32rpx;
+  position: relative;
+}
+
+.pro-title::before {
+  display: inline-block;
+  position: absolute;
+  top: 50rpx;
+  left: 76rpx;
+  content: "";
+  width: 62rpx;
+  height: 0px;
+  border: 1rpx solid #a8a7a7;
+}
+
+.pro-desc {
+  font-size: 14rpx;
+  color: #777;
+  width: 200rpx;
+  margin: 0 auto;
+  line-height: 18rpx;
+  margin-top: 45rpx;
+}
+
+.contact {
+  width: 100%;
+  margin-top: 60rpx;
+}
+
+.contact>text {
+  margin-left: 30rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+button::after {
+  contain: "";
+  border: none;
+}

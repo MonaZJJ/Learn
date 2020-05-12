@@ -1,0 +1,51 @@
+<import src="../../templates/nav.wxml" />
+<view class='container'>
+  <!--导航  -->
+  <template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+  <template is="selectNav" data="{{currentPage}}" wx:else></template>
+  <view class='aboutUs'>
+    <view class='about'>关于我们</view>
+    <view class='picture'>
+      <image src='https://shopplatform.gzhotcen.com/upload/OfficialWebSite/aboutUs.png?+ Math.random() / 9999 ' style='width:692rpx;height:400rpx;'></image>
+    </view>
+    <view class='intro'>
+      <text>广州互诚信息科技有限公司作为一个网络服务商，专攻移动化微信平台的技术开发服务，专业从事小程序开发服务工作，可以为客户提供适配各行各业的小程序平台技术开发与运维推广服务。基于技术服务团队的组建，以及不断的技术研发以及实践服务探索，我司围绕微信小程序开发服务建立了规模化的服务体系，以先进高效的项目管理、优质的服务态度去保证客户服务的满意度。</text>
+      <view>通过不断更新、应用全网技术的技术创新而推出产品，吸引了数千家企业商家客户选择我司的小程序定制服务，着力为中小企业实现小程序开发运营、促进企业实施微信营销与经营获利的目标。通过完整的服务流程与完善的售后保障，让互诚科技在与客户的合作中，创造出满意度高的价值回馈。</view>
+    </view>
+    <view class='teamIntro'>团队介绍</view>
+    <swiper previous-margin='50px' next-margin='50px' bindchange="swiperChange" style='height:{{swiperH}};' current='1'>
+      <swiper-item wx:for='{{imgList}}' wx:key=''>
+        <navigator url='{{item.aurl}}' hover-class='none'>
+          <view class='le-img {{nowIdx==index?"le-active":""}}'>
+            <image mode='widthFix' src='{{item.imgsrc}}' class='ico' bindload='getHeight'></image>
+            <view class='swp-title'>
+              <view class="swp-ctitle">{{item.ctitle}}</view>
+              <view class='swp-etitle'>{{item.etitle}}</view>
+            </view>
+          </view>
+        </navigator>
+      </swiper-item>
+    </swiper>
+    <view class='teamIntro'>服务理念</view>
+    <view class='idea'>
+      <view class='ideaItem'>
+        <view class='ideaTitle'>实现需求</view>
+        <view class='ideaContent'>
+          在技术可行范围内，一切以客户需求为主，围绕客户想法提出开发建议，组建完整的项目开发团队，针对特定的开发项目与客户的特定需求开展项目开发工作，坚持以技术服务实现客户的个性化需求。
+        </view>
+      </view>
+      <view class='ideaItem'>
+        <view class='ideaTitle'>服务创新</view>
+        <view class='ideaContent'>
+          重视结合开发经验进行技术升级、重视对小程序开发服务进行优化创新，致力于在实现客户个性化需求的同时，给到客户更有价值的、创新性的服务内容，让客户享受高质量服务，获得高价值回馈。
+        </view>
+      </view>
+      <view class='ideaItem'>
+        <view class='ideaTitle'>真诚合作</view>
+        <view class='ideaContent'>
+          以真诚的态度面对客户，向客户提供符合需求的、专业的开发咨询与技术服务，从品牌设计、程序开发、交互设计、视觉设计、功能研发到产品实现的整个过程，坚持真诚服务的态度，以技术保障服务，用经验升级服务。
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

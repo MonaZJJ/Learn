@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/aboutUs/aboutUs",
+    "pages/e-commerce/e-commerce",
+    "pages/proHotel/proHotel",
+    "pages/proCatering/proCatering",
+    "pages/proBeauty/proBeauty",
+    "pages/proMedical/proMedical",
+    "pages/proEducation/proEducation",
+    "pages/proCar/proCar",
+    "pages/proProperty/proProperty",
+    "pages/proWedding/proWedding",
+    "pages/successCases/successCases",
+    "pages/detail/detail",
+    "pages/apply/apply",
+    "pages/price/price",
+    "pages/receive/receive",
+    "pages/work/work",
+    "pages/money/money",
+    "pages/orderFood/orderFood",
+    "pages/homeSource/homeSource",
+    "pages/wxFans/wxFans",
+    "pages/question/question",
+    "pages/photos/photos",
+    "pages/play/play",
+    "pages/sell/sell",
+    "pages/settle/settle"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "互诚科技官网",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

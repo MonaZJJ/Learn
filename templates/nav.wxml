@@ -1,0 +1,29 @@
+<template name="navgation">
+  <view class="navigation">
+    <image src="/images/img/many.png" class="nav_left" bindtap='showNav'></image>
+    <image src="/images/img/sign.png" class="nav_center" style='width:56rpx;height:56rpx;'></image>
+  </view>
+</template>
+<template name="selectNav">
+  <view class="selectNav">
+    <view class="navigation">
+      <image src="/images/img/sign.png" class="nav_center" style='width:56rpx;height:56rpx;'></image>
+      <image src="/images/img/delect.png" class="nav_delect" bindtap='showNav'></image>
+    </view>
+    <navigator url='../home/home' class="nav-item item" hover-class="none">
+      <view class="{{currentPage==1?'active':''}} border">首页</view>
+    </navigator>
+    <navigator url='../settle/settle' class="nav-item" hover-class="none">
+      <view class="{{currentPage==2?'active':''}} border">解决方案</view>
+    </navigator>
+    <navigator url='../successCases/successCases' class="nav-item" hover-class="none">
+      <view class="{{currentPage==3?'active':''}} border">成功案例</view>
+    </navigator>
+    <navigator url='../question/question' class="nav-item" hover-class="none">
+      <view class="{{currentPage==4?'active':''}} border">常见问题</view>
+    </navigator>
+    <navigator url='../aboutUs/aboutUs' class="nav-item" hover-class="none">
+      <view class="{{currentPage==5?'active':''}} border">关于我们</view>
+    </navigator>
+  </view>
+</template>

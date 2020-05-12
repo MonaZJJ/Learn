@@ -1,0 +1,48 @@
+.container {
+  margin-left: 32rpx;
+  margin-right: 45rpx;
+}
+
+.title {
+  margin-top: 31rpx;
+  color: #333;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.time {
+  margin-top: 31rpx;
+  font-size: 24rpx;
+  color: #333;
+}
+
+.tips {
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 40rpx;
+  text-indent: 5%;
+  letter-spacing: 2rpx;
+  margin-right: 75rpx;
+  line-height: 50rpx;
+  text-align: justify;
+}
+
+.content {
+  font-size: 28rpx;
+  color: #333;
+  margin-right: 60rpx;
+  margin-top: 39rpx;
+  text-indent: 5%;
+  letter-spacing: 2rpx;
+  line-height: 45rpx;
+  text-align: justify;
+  margin-bottom: 80rpx;
+}
+
+.content>view {
+  margin-top: 20rpx;
+}
+
+.bigTitle {
+  font-weight: bold;
+}

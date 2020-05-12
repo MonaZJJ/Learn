@@ -1,0 +1,88 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg7.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>汽车小程序</view>
+    <view class="en">Car applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/scar.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>传统汽车行业仅以实体店为主要营销服务场所，汽车行业的企业商家只能在行业中的众多方面选择某些模块进行经营，影响并限制了汽车行业商家的全面性发展。</view>
+  </view>
+</view>
+<view class='character'>
+  <text>特点</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>连接“互联网+”本质，完善经营模式</text>
+    </view>
+    <view class='content'>微信开发方案为汽车行业提供了一个真正的连接“互联网+”的行业解决方案，通过线上平台的开发，同时支持打通线下服务场景，丰富汽车行业的发展渠道，促进行业经营模式不断完善。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>提高行业生产力水平与服务质量</text>
+    </view>
+    <view class='content'>汽车行业利用微信平台的开发，将服务产品化、实现管理信息化、促进营销高效化。通过线上平台为消费者提供服务，提升服务的效率与价值，加大增值服务的投入力度，提高行业竞争力。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>平台信息对接，资源实现共享</text>
+    </view>
+    <view class='content'>微信平台作为汽车企业商家对接线上场景与线下场景的中间支点，以专业化的系统开发，为企业提供能够支持场景信息对接、渠道资源功效的高效管理平台，将两大场景的优势融合在一起为企业发展所用，推动企业发展进程。
+    </view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>最新资讯</text>
+    </view>
+    <view class='content'>通过微信平台向用户推送最新的汽车行业资讯，让行业消费者与潜在消费者通过移动平台随时随地了解 行业信息、门店信息，助力与门店的营销与行业动态的传播。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>实时路况</text>
+    </view>
+    <view class='content'>快速定位查询出行路线的实时路况或者驾驶区域附近的实时路况，方便车主针对路况制定出行路线或者绕道路线。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>违章查询</text>
+    </view>
+    <view class='content'>对接全国违章查询系统，方便车主移动化查询国内车辆违章情况，快速茶打破违章原因与违章区域，便于违章款项的缴纳。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>预约保养</text>
+    </view>
+    <view class='content'>支持在线预约汽修与保养服务，车主填写相关的预约信息提交到预约系统中，系统管理人员接收预约信息后安排服务人员做好准备，以便到时快速响应服务。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>车型展示</text>
+    </view>
+    <view class='content'>360度展示汽车销售门店的各类车型，用户只需在微信平台中轻轻滑动手指就能全方位的观看到汽车门店的所有车型、颜色、参数对比、报价、自动计算分期购车方案等信息。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line4.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>门店导航</text>
+    </view>
+    <view class='content'>对于提供线下服务的汽车行业门店，用户想到达门店，可以直接定位自身位置，并于微信平台输入门店地址，实现在线导航，轻松找到线下门店。</view>
+  </view>
+</view>
+<template is="contact"></template>

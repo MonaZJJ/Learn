@@ -1,0 +1,87 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg8.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>婚庆小程序</view>
+    <view class="en">Wedding celebration applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/swedding.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>现阶段的婚庆行业消费主力军为80后与90后，这一年轻群体的消费方式、消费理念与以前的消费者有者明显的时代差别，随着消费主力军改变,服务也进行转型。</view>
+  </view>
+</view>
+<view class='character'>
+  <text>解决问题</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>提高服务效率与体验满意度</text>
+    </view>
+    <view class='content'>根据婚庆行业需要提高服务质量与服务效率的需求，微信开发解决方案帮助商家开发线上服务模块，让便捷的线上平台为消费者提供自主性更高的服务，减少人力投入而又提高服务效率与体验满意度。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>提供高效营销手段，提高竞争力</text>
+    </view>
+    <view class='content'>针对婚庆行业的特点，微信开发方案为商家提供符合营销需求与发展特点的高效营销手段，在行业竞争力不断加大的市场现状中，让商家能通过高效的营销，提高竞争力与获客机会。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>加强客户沟通，维护客户关系</text>
+    </view>
+    <view class='content'>微信开发方案为婚庆服务商家提供多种互动功能，帮助商家加强与客户的联系，利用多种功能与手段 拉近与客户间的关系，有助于把控市场的需求、喜好，维护客户关系。</view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>服务预约</text>
+    </view>
+    <view class='content'>用户可以通过线上预约功能，自主预约婚庆服务，按流程填写服务时间、服务类目、服务人员等信息提交，商家接收到预约信息之后，可提前为提供服务做准备，减少用户的服务等待时间，同时提高商家的服务效率与质量。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>微信喜帖</text>
+    </view>
+    <view class='content'>微信喜帖是非常现代化的创新喜帖形式，是基于微信应用去传播的电子喜帖，受到很多年轻人的喜欢，微婚庆解决方案同样可以满足此功能的开发需求。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>会员管理</text>
+    </view>
+    <view class='content'>微婚庆开发方案为企业提供会员管理功能，用作商家分类管理会员、数据化管理会员档案、维系客户关 系而用，同时支持会员分类管理、分级管理、标签管理。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>微信相册</text>
+    </view>
+    <view class='content'>微信相册与微信喜帖都是比较新兴的一种内容展示方式，婚庆服务商为消费者提供服务之后，可按需求 操作此功能制作微信相册，满足消费者在微信社交中传播相册的需求。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>信息展示</text>
+    </view>
+    <view class='content'>信息展示功能可以让婚庆服务商家展示最新行业资讯、商家优惠资讯、案例经验、位置信息、联系方式等，是在婚庆服务上开发微信营销平台展现自身实力与服务价值的重要功能模块。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>在线互动</text>
+    </view>
+    <view class='content'>在线功能可以是在线客服、模板消息推送、评论留言等形式呈现，让商家能够实时与消费者进行互动交流、获得消费者的建设性意见、模板消息通知、节日关怀等。</view>
+  </view>
+</view>
+<template is="contact"></template>

@@ -1,0 +1,156 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<view class='main'>
+  <!--头部菜单栏  -->
+  <template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+  <template is="selectNav" data="{{currentPage}}" wx:else></template>
+  <!-- 主图 -->
+  <view class='mainImg'>
+    <image src="https://shopplatform.gzhotcen.com/upload/OfficialWebSite/poster.png"></image>
+  </view>
+  <!-- 我们的服务 -->
+  <view class='service'>
+    <view class='items'>
+      <image src='/images/img/title.png' class='titleImg'></image>
+      <view class='left'>
+        <view class='title'>我们的服务</view>
+        <view class='engTitle'>OUR SERVICES</view>
+      </view>
+    </view>
+    <view class='serviceItem'>
+      <view class="itemImgs">
+        <image src='/images/img/service01.png' class="itemImg"></image>
+        <text class='desc'>开发小程序商城</text>
+      </view>
+      <view class="itemImgs">
+        <image src='/images/img/service02.png'  class="itemImg"></image>
+        <text class='desc'>开发分销小程序</text>
+      </view>
+    </view>
+    <view class='serviceItem'>
+      <view class="itemImgs">
+        <image src='/images/img/service03.png'  class="itemImg"></image>
+        <text class='desc'>开发营销小程序</text>
+      </view>
+      <view class="itemImgs">
+        <image src='/images/img/service04.png'  class="itemImg"></image>
+        <text class='desc'>定制小程序开发</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 解决方案 -->
+  <view class='soultion'>
+    <view class='items'>
+      <image src='/images/img/title.png' class='titleImg'></image>
+      <view class='left'>
+        <view class='title'>解决方案</view>
+        <view class='engTitle'>THE SOLUTION</view>
+      </view>
+    </view>
+
+    <swiper previous-margin='60px' next-margin='60px' bindchange="swiperChange" style='height:{{swiperH}};' current='1'>
+      <swiper-item wx:for='{{imgList}}' wx:key=''>
+        <navigator open-type='navigate' url='{{item.aurl}}' hover-class='none'>
+          <view class='le-img {{nowIdx==index?"le-active":""}}'>
+            <image mode='widthFix' src='{{item.imgsrc}}' class='ico' bindload='getHeight'></image>
+            <view class='swp-title' style='border-left-color:{{item.bgColor}}'>
+              <view class="swp-ctitle">{{item.ctitle}}</view>
+              <view class='swp-etitle'>{{item.etitle}}</view>
+            </view>
+          </view>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 成功案例 -->
+  <view class='success'>
+    <view class='items'>
+      <image src='/images/img/title.png' class='titleImg'></image>
+      <view class='left'>
+        <view class='title'>成功案例</view>
+        <view class='engTitle'>SUCCESSFUL CASES</view>
+      </view>
+    </view>
+    <swiper previous-margin='60px' next-margin='60px' bindchange="successChange" style='height:{{swiperH}};' current='1'>
+      <swiper-item wx:for='{{swiperList}}' wx:key=''>
+        <navigator open-type='navigate' url='{{item.aurl}}' hover-class='none'>
+          <view class='img {{sIdx==index?"active":""}}'>
+            <image bindload='getHeight' src='{{item.src}}' mode="widthFix" class='sico'></image>
+            <view class='cover'>
+              <view class='stitle'>{{item.stitle}}</view>
+              <view class='content'>{{item.content}}</view>
+              <view class='gl'>{{item.txt}}</view>
+              <image src='{{item.arrow}}' style='width:61rpx;height:35rpx;' class='arrow'></image>
+            </view>
+          </view>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 合作伙伴 -->
+  <view class='partners'>
+    <view class='items'>
+      <image src='/images/img/title.png' class='titleImg'></image>
+      <view class='left'>
+        <view class='title'>合作客户</view>
+        <view class='engTitle'>COOPERATIVE CLIENT</view>
+      </view>
+    </view>
+    <!-- 滚动部分 -->
+    <swiper indicator-dots="{{indicatorDots}}" interval="{{interval}}" circular="true" class='partners-wrap'>
+      <block wx:for="{{customerList}}" wx:key>
+        <swiper-item class="swiper-item">
+          <image src="{{item.ImgUrl}}" class="hsImg" mode='aspectFill' />
+        </swiper-item>
+      </block>
+    </swiper>
+    <!-- <scroll-view class='partners-wrap' scroll-x>
+      <view class='partners-item' wx:for="{{customerList}}" wx:key="">
+        <view class='customer'>
+          <image src="{{item.ImgUrl}}" class="hsImg" mode='aspectFill' />
+        </view>
+      </view>
+    </scroll-view> -->
+  </view>
+
+  <!-- 常见问题 -->
+  <view class='problems'>
+    <view class='items'>
+      <image src='/images/img/title.png' class='titleImg'></image>
+      <view class='left'>
+        <view class='title'>常见问题</view>
+        <view class='engTitle'>PROBLEM</view>
+      </view>
+    </view>
+    <view class='proItems'>
+      <view class='proItem' catchtap="goApply">
+        <view class='pro'>广州企业怎么申请小程序？</view>
+        <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+      </view>
+       <view class='proItem' catchtap="goPrice">
+        <view class='pro'>广州小程序开发价格是不是越低越好？</view>
+        <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+      </view>
+      <view class='proItem' catchtap="goReceive">
+        <view class='pro'>小程序开发过程中增加新功能怎么收费？</view>
+        <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+      </view>
+      <view class='proItem' catchtap="goWork">
+        <view class='pro'>一个成功的小程序需要准备哪些前期工作？</view>
+        <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+      </view>
+       <view class='proItem' catchtap="goMoney">
+        <view class='pro'>广州小程序开发要多少钱？开发报价规则如何？</view>
+        <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+      </view>
+       <view class='proItem' catchtap="goDetail">
+        <view class='pro'>广州企业如何选择靠谱专业的微信小程序开发团队？</view>
+        <image src='/images/img/back.png' style='width:20rpx;height:24rpx;'></image>
+      </view>
+    </view>
+  </view>
+
+  <!-- 咨询热线 -->
+  <template is="contact"></template>
+</view>

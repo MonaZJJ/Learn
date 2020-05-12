@@ -1,0 +1,45 @@
+.titleImg {
+  width: 35rpx;
+  height: 70rpx;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30rpx;
+  margin-top: 105rpx;
+}
+
+.title {
+  margin-left: 20rpx;
+  font-weight: bold;
+  font-size: 38rpx;
+}
+
+.engTitle {
+  font-size: 32rpx;
+  font-weight: bold;
+  font-family: FZHTJW--GB1-0;
+  font-style: italic;
+  color: rgba(51, 51, 51, 1);
+  opacity: 0.2;
+  margin-left: 10rpx;
+}
+.proItems {
+  margin: 30rpx;
+}
+
+.proItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 98rpx;
+  line-height: 98rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.pro {
+  font-size: 26rpx;
+}

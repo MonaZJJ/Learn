@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="title">玩转手摄电商小程序</view>
+  <view class="tips">摘要：互诚科技在与优客科技沟通后，此项目旨在为手机摄影爱好者谋福利，故全力配合开发。此小程序为手机摄影爱好者相互交流的一个平台，设计的细节、视觉的冲击力是吸引粉丝的一大利器，故设计要求需要符合客户群体的视觉体验，与逻辑交互体验。</view>
+  <view class="applyImg">
+    <image src="https://shopplatform.gzhotcen.com/upload/OfficialWebSite/apply09.jpg" style="width:553rpx;height:400rpx;"></image>
+  </view>
+  <view class="content">
+    <view class="bigTitle">1、显示Banner图：轮播，内容：图片，比赛标题（主、副标题），参与人数，已上传作品数量，分享、转发、收藏，上传作品按钮，显示作品上传剩余天数。</view>
+    <view class="bigTitle">2、摄影师实时排行榜：显示前三-五个摄影师排行（NO1/NO2/NO3...）,显示头像，名称。</view>
+    <view class="bigTitle">3、摄影师实时排行榜详情：点击进入查看当日排行前10-20名的摄影师，点击头像进入摄影师主页，往下滑动，可以查看到往日榜单。（排名按照总点赞量）。</view>
+    <view class="bigTitle">4、关注作品：显示我关注的作者发布的作品列表，显示所有作品列表，内容：头像，昵称，已关注，图片，标题，描述，作品标签，分数，评分人数，分享，转发，收藏，评论，点赞数量，打分。</view>
+
+    <view class="bigTitle">5、推荐：显示平台推荐的作品列表。</view>
+    <view class="bigTitle">6、作品详情：显示作者头像，昵称，+关注/已关注，图片，标题，描述，作品标签，分数，评分人数，打分，分享，转发，收藏，评论内容及回复内容，点赞数量及列表。</view>
+    <view class="bigTitle">7、个人主页：点击头像、昵称后跳转至个人详情页面，显示作者的介绍，发布作品列表，内容：头像，昵称，+关注/已关注，图片，标题描述，分数，打分人数，分享，转发，收藏，评论，点赞数量，点击作品跳转至作品详情。</view>
+    <view class="bigTitle">8、教程：</view>
+    <view>8.1、视频列表：显示教程主题，视频标题，描述，图片，收藏，播放数量，视频时长。</view>
+    <view>8.2、视频详情：视频播放窗口（读取第三方视频源），视频标题，描述，收藏，转发，视频推荐（系统随机），评论。</view>
+  </view>
+</view>

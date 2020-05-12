@@ -1,0 +1,87 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg3.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>餐饮小程序</view>
+    <view class="en">Catering applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/seat.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>大数据统计显示，在移动化互联网以及O2O经营模式的浪潮冲击下，餐饮行业是移动化与开拓线上线下结合发展模式速度最快的行业，触网已经成为餐饮商家提升竞争力的重要手段。</view>
+  </view>
+</view>
+<view class='character'>
+  <text>特点</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>营销手段自主选择，实现个性化营销</text>
+    </view>
+    <view class='content'>微信开发解决方案中除了会提供符合时代发展的行业营销思维，提供多样化的营销手段供企业商家选择，帮助商家实现个性化营销，解决同质化问题。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>线上平台把控市场需求，精准获客</text>
+    </view>
+    <view class='content'>微信开发方案将餐饮企业门店发展建设重点放在线上平台，通过数据分析、会员管理、营销功能，可以科学化、精准化进行营销，解决获客难问题。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>多渠道结合发展，提高企业竞争力</text>
+    </view>
+    <view class='content'>餐饮行业的O2O属性决定了在线下发展的特质，微信解决方案根据此特质去为企业提供打通多个场景、连接多个渠道的微信平台的开发方案，让企业通过开发能多渠道。</view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>会员管理</text>
+    </view>
+    <view class='content'>会员管理功能为餐饮门店维系客户、留住客户的重要手段，通过会员管理，商家可以实施节日关怀、会员营销等，将新客户发展成会员，将会员发展成老客户。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>菜品管理</text>
+    </view>
+    <view class='content'>支持门店自主上架下架菜品信息，也支持用户线上点餐，菜品管理功能不仅包含菜品展示，信息管理，还能实现线上自助点餐、预约订餐。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>排号查号</text>
+    </view>
+    <view class='content'>消费者还未到餐饮门店时，可以通过排号功能自助排号；消费者到店排号之后，可以扫描参数二维码实现远程在线查号，不需要一直留在餐厅中等待叫号。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>店面活动</text>
+    </view>
+    <view class='content'>店面活动模块，可以展示线下的店面活动，也可以直接发起线上的店面活动，通过活动的展示或者发起，将线上用户流量引入到线下服务场景当中。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>在线预定</text>
+    </view>
+    <view class='content'>用户通过在线预订功能，可以在餐饮门店对应的微信平台中预定座位、预定菜单、预定服务时间，商家接收预定消息后得以提前准备，减少消费者用餐等待时间。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line5.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>位置定位</text>
+    </view>
+    <view class='content'>位置定位功能是基于餐饮门店线下服务的特点而定的一项功能，为用户提供位置定位、线上导航的服务，方便消费者轻松找到线下餐饮门店。</view>
+  </view>
+</view>
+<template is="contact"></template>

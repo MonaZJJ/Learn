@@ -1,0 +1,87 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg1.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>酒店小程序</view>
+    <view class="en">Hotel applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/shotel.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>随着商业经济的发展、人民消费水平的提高以及消费观念的转变,传统酒店服务效率急需提高,酒店行业服务领域拓宽,移动端发展的科学合理化推动酒店转型。</view>
+  </view>
+</view>
+<view class='character'>
+  <text>特点</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>个性化营销缓解竞争压力</text>
+    </view>
+    <view class='content'>通过策划符合酒店企业实际需求的微信开发方案, 实现个性化营销来环节行业竞争压力,为酒店打造独特的吸引点。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>提高服务响应速度与效率</text>
+    </view>
+    <view class='content'>通过开发将服务的传输放在微信平台上，分配服务人员实施服务，较快的响应速度与合理的人员安排提高了服务的效率与管理的合理性。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>高效管理，精准决策</text>
+    </view>
+    <view class='content'>酒店的管理接入微信这个线上平台中去实施，提高服务效率。利用互联网数据支持，企业可以精准地得到市场数据来辅助管理决策。</view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>区域定位</text>
+    </view>
+    <view class='content'>根据用户定位为消费者提供定位地址附近的酒店，提高区域酒店的曝光度，也让用户能快速找到符合需求的酒店预定入驻。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>搜索筛选</text>
+    </view>
+    <view class='content'>搜索筛选功能，搜索版块能支持用户直接输入酒店名进行精准搜索，筛选版块则是根据用户选择的房型、 价格、区域等来找出符合用户需求的所有酒店。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>房型展示</text>
+    </view>
+    <view class='content'>对每一个酒店的每一种房源类型进行详细的展示说明，包括房间配置、房源价格等，向用户全面介绍房源的情况，引导用户进行预定或者直接消费。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>在线预定</text>
+    </view>
+    <view class='content'>房源详情介绍页面，可以插入在线预定的功能，当消费者看中哪一间房型，可以直接在线预定，填写入住信息后提交，到店后可直接办理入住。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>微信支付</text>
+    </view>
+    <view class='content'>在酒店门店消费肯定会涉及到支付与发票开具的问题，微信支付开发可以实现便捷的在线支付，还能对接闪开发票功能，快速为消费者开具发票。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line1.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>服务呼叫</text>
+    </view>
+    <view class='content'>消费者入住酒店之后，不必再使用电话呼叫客房服务，直接在微信平台填写并提交服务信息，即可等待酒店服务人员上门服务，高效便捷。</view>
+  </view>
+</view>
+<template is="contact"></template>

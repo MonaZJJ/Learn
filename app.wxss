@@ -1,0 +1,127 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: '微软雅黑';
+}
+
+/*导航  */
+
+.navigation {
+  width: 100%;
+  height: 100rpx;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.item {
+  margin-top: 100rpx;
+}
+
+.nav_left {
+  width: 38rpx;
+  height: 37rpx;
+  margin-left: 28rpx;
+}
+
+.nav_center {
+  position: absolute;
+  left: 330rpx;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+/*展开导航  */
+
+.selectNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 40;
+}
+
+.nav_delect {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  left: 30rpx;
+}
+
+.nav-item {
+  font-size: 28rpx;
+  color: #424242;
+  letter-spacing: 5rpx;
+  background-color: #fff;
+  text-indent: 30rpx;
+}
+
+.border {
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+  margin-left: 90rpx;
+  margin-right: 30rpx;
+}
+
+.active {
+  color: #329aff;
+}
+
+/*联系我们start*/
+
+.contact {
+  position: relative;
+}
+
+.serviveButton {
+  background-color: #fff;
+  position: absolute;
+  top: -6rpx;
+  right: 32rpx;
+}
+
+.serviveButton>image {
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+}
+
+.contact-text {
+  color: #555;
+  font-size: 32rpx;
+}
+
+.contact-telphone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 44rpx auto;
+  justify-content: center;
+}
+
+.contact-telphone>image {
+  margin-right: 28rpx;
+}
+.address{
+  width: 650rpx;
+  text-align: center;
+  margin-left: 32rpx;
+  margin-bottom: 70rpx;
+}
+/*联系我们end*/

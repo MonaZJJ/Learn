@@ -1,0 +1,87 @@
+<import src="../../templates/nav.wxml" />
+<import src="../../templates/contact.wxml" />
+<!--头部菜单栏  -->
+<template is="navgation" data="{{currentPage}}" wx:if='{{hideNav}}'></template>
+<template is="selectNav" data="{{currentPage}}" wx:else></template>
+
+<view class='bg'>
+  <image src='/images/img/bg5.png' style='width:750rpx;height:410rpx;'></image>
+  <view class='name'>
+    <view class='ch'>医疗小程序</view>
+    <view class="en">Medical applet</view>
+  </view>
+  <view class='special'>
+    <image src='/images/img/smedical.png' style='width:258rpx;height:318rpx;'></image>
+    <view class='desc'>移动医疗的出现与发展，使得医疗行业走进移动化，卫生部将移动医疗作为行业重点关注项目，并且移动医疗的商业模式已经进入探索阶段，未来的移动医疗建设将会不断加速。</view>
+  </view>
+</view>
+<view class='character'>
+  <text>特点</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>降低人工服务的依赖性，提高服务效率</text>
+    </view>
+    <view class='content'>根据微信开发方案开发的微医疗平台，以高效的线上平台服务，来缓解线下场景服务资源的紧张程度，降低行业对人工服务的依赖性，减少不必要的人力分配，同时提高行业的服务效率。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>促进医疗行业信息透明化</text>
+    </view>
+    <view class='content'>微医疗平台可以用来透明化展示医疗行业相关信息，通过资讯推送、信息展示、价格查询等功能结合，让整个行业呈现透明化的状态，提高用户对行业的信任值。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>助力医疗机构合理分配资源，提高服务效率</text>
+    </view>
+    <view class='content'>通过开发在线预约、在线就诊等功能，微医疗平台能帮助医疗机构实现资源的合理配置、打破就诊的时间、空间局限，让医疗资源的利用效率提高，也让医疗服务的效率与质量得到提高。</view>
+  </view>
+</view>
+<view class='function'>
+  <text>常见功能</text>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>在线咨询</text>
+    </view>
+    <view class='content'>在线咨询是线上就诊平台的重要功能，可以让用户先对自己的健康卫生状况进行详细的咨询，根据医生的解答决定是否就诊，提高就诊的指引效率，也避免医疗资源的浪费。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>手机挂号</text>
+    </view>
+    <view class='content'>利用微信医疗平台进行挂号排号，或者就诊预约，直接免去了排队的烦恼，减少患者的排队等待时间，也能让医疗服务资源提前进行合理分配。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>手机病历</text>
+    </view>
+    <view class='content'>开发手机病历功能，可以让患者与医生不再需要手动填写纸质病历，录入相关信息就能直接在手机客户 端上查看看病的次数、目前的身体状况与用药情况等等。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>药价对比</text>
+    </view>
+    <view class='content'>医疗行业相关部门可以通过开发微信平台，将全国的药价整合成一个药物系统，用户能在手机客户端上就能进行药价查询与区域药价对比，便民利民。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>健康测试</text>
+    </view>
+    <view class='content'>用户可以在医疗微信平台上大致地测试自己的健康状况，了解自己的身体情况，然后针对测试的结果以及医生的建议选择自我调理身体或者挂号就医。</view>
+  </view>
+  <view class='common'>
+    <view class='top'>
+      <image src='/images/img/line.png' style='width:38rpx;height:38rpx;'></image>
+      <text class='title'>手机支付</text>
+    </view>
+    <view class='content'>开发微信支付功能后，用户使用微信医疗平台可以直接支付挂号费用、就诊费用、取药费用等，实现无现金化的医疗交易，方便而安全。</view>
+  </view>
+</view>
+<template is="contact"></template>
